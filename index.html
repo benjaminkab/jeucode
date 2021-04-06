@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>JeuCode - Quand le jeu et la programmation web ne font qu'un.</title>
+
+
+	<meta property="og:site_name" content="JeuCode" /> <!-- NOM DU SITE -->
+	<meta property="og:description" content="Quand le jeu et la programmation web ne font qu'un." /> <!-- DESCRIPTION DU SITE -->
+
+
+	<!-- META TAGS -->
+	<meta name="description" content="Quand le jeu et la programmation web ne font qu'un.">
+	<meta name="keywords" content="JeuCode, html, css, js, programmation, isn, projet, nls, site, jeu, design, responsive">
+
+	<!-- FEUILLES DE STYLE -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,500" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/icon-font.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+
+	<link rel="icon" href="images/favicon.png">
+
+</head>
+<body>
+
+	<div class="main-wrapper">
+
+		<!-- CHARGEMENT -->
+		<div id="preloader">
+			<div id="status">&nbsp;</div>
+		</div>
+
+		<!-- BARRE DE NAVIGATION (+ ACCÈS MOBILE - RESPONSIVE)-->
+		<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+			<div class="container">
+
+				<div class="navbar-header scrolling">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Navigation</span><span>Menu</span>
+					</button>
+
+					<!-- LOGO EN IMAGE -->
+					<!-- UTILISER LE CODE CI-DESSOUS POUR UTILISER UNE IMAGE EN TANT QUE LOGO -->
+					<!-- <a href="#header" class="navbar-brand img-logo scrolling" title="JeuCode">
+						<img src="images/jeucode.png" alt="Logo">
+					</a> -->
+
+					<!-- LOGO EN TEXTE -->
+					<a class="navbar-brand scrolling" href="#header">JeuCode</a>
+				</div>
+
+				<!-- BARRE DE NAVIGATION -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a class="scrolling" href="#header">Accueil</a>
+						</li>
+						<li>
+							<a class="scrolling" href="#caractéristiques">Caractéristiques</a>
+						</li>
+						<li>
+							<a class="scrolling" href="#présentation">Présentation</a>
+						</li>
+						<li>
+							<a class="scrolling" href="#équipe">Équipe</a>
+						</li>
+						<li>
+							<a class="scrolling" href="#jeux">Jeux</a>
+						</li>
+						<li>
+							<a class="scrolling" href="#nous-contacter">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+
+
+		<!-- HEADER DE LA PAGE -->
+		<header id="header">
+			<div class="flex-conteneur-enveloppe"> <!-- DIV POUR FIXER L'ALIGNEMENT SUR IE POUR FLEX -->
+				<div class="header-contenu">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-7">
+								<div class="embed-responsive embed-responsive-16by9">
+									<!-- VIDEO À RÉALISER À L'AVENIR POUR LE SITE -->
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/9mUTK7zq9mQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								</div>
+							</div>
+							<div class="col-md-5">
+								<h1>JeuCode</h1>
+								<p>Nous sommes un site Internet te permettant de voir les jeux sous leurs réelless forme tout en s'amusant et en apprennant de façon ludique et simple</p>
+									<div class="header-buttons">
+									<a class="button-large-solid scrolling" href="#citations">Continuer</a>
+									<a class="button-large-solid-white scrolling" href="#jeux">Jouer</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+		<!-- CITATIONS -->
+		<div id="citations">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+
+						<!-- CAROUSEL CITATIONS -->
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="7000"> <!-- for time interval between slides, change data-interval -->
+
+							<!-- SLIDES POUR CHAQUE CITATION  -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<div class="carousel-content">
+										<div class="center-block">
+											<img src="images/bjarne_stroustrup.png" alt="Bjarne Stroustrup">
+											<p>"J’ai toujours rêvé que mon ordinateur soit aussi simple à utiliser que mon téléphone. Ce rêve est devenu réalité : je ne comprends plus comment utiliser mon téléphone."</p>
+											<h2>Bjarne Stroustrup, auteur du C++</h2>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="carousel-content">
+										<div class="center-block">
+											<img src="images/steven_paul_jobs.png" alt="Steven Paul Jobs">
+											<p>"L'ordinateur est l'outil le plus remarquable que nous ayons jamais construit."</p>
+											<h2>Steven Paul Jobs, Apple - ex CEO</h2>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="carousel-content">
+										<div class="center-block">
+											<img src="images/albert_brie.png" alt="Albert Brie">
+											<p>"Le jeu est l'occupation la plus sérieuse de l'enfant ; la plus frivole étant l'éducation."</p>
+											<h2>Albert Brie, Le mot du silencieux - écrivain</h2>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- INDICATEURS POUR SAVORI SUR QUEL SLIDE ON SE TROUVE -->
+							<ol class="carousel-indicators center-block">
+								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- CARACTÉRISTIQUES -->
+		<div id="caractéristiques">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h1><span class="underline">Caractéristiques</span></h1>
+						<p class="sub-heading">Les choses qui font de JeuCode, un simple incontournable pour tous.</p>
+					</div>
+					<div class="col-md-4 text-center">
+						<span class="icon-gift features-icons"></span>
+						<h3 class="text-center">Concours</h3>
+						<p>Chaque mois, un utilisateur de JeuCode sera contacté pour gagner un cadeau d'une valeur pouvant aller jusqu'à 1 000 €</p>
+					</div>
+					<div class="col-md-4 text-center">
+						<span class="icon-target features-icons"></span>
+						<h3 class="text-center">Jeux ciblés</h3>
+						<p>Chaque jeu est programmé de façon simple pour montrer comment un simple code peut faire de belles choses</p>
+					</div>
+					<div class="col-md-4 text-center">
+						<span class="icon-mobile features-icons"></span>
+						<h3 class="text-center">Jouer n'importe où</h3>
+						<p>Vous pouvez accéder au site depuis n'importe quelle plateforme</p>
+					</div>
+					<div class="col-md-4 text-center">
+						<span class="icon-presentation features-icons"></span>
+						<h3 class="text-center">Apprentissage</h3>
+						<p>Utiliser JeuCode vous permet d'accroître vos compétences en programmation web tout en vous amusant</p>
+					</div>
+					<div class="col-md-4 text-center">
+						<span class="icon-chat features-icons"></span>
+						<h3 class="text-center">Communication</h3>
+						<p>La communauté JeuCode vous permet d'avoir une réponse dans les plus brèves delais dès lors que vous rencontrez un problème</p>
+					</div>
+					<div class="col-md-4 text-center">
+						<span class="icon-shield features-icons"></span>
+						<h3 class="text-center">Données personnelles</h3>
+						<p>Toutes les données recuellis par JeuCode sont stockés dans nos bases de données et sont utilisées afin d'améliorer l'expérience utilisateur</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- PRÉSENTATION -->
+		<div id="présentation">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h1><span class="underline">Présentation</span></h1>
+					</div>
+				</div>
+				<div class="row first-row">
+					<div class="col-md-6">
+						<img class="img-responsive" src="images/presentation.png" alt="Code du Site">
+					</div>
+					<div class="col-md-6">
+						<h2>Tu aimes les jeux, tu aimes la programmation web? JeuCode est fait pour toi</h2>
+						<p>Nous avons conçu JeuCode dans un but vraiment précis, celui de montrer aux adolescents comment utiliser les langages de programmations de manière ludique.</p>
+						<p>La proximité entre les développeurs et les utilisateurs est une chose indispensables pour montrer que quelque soit l'âge, tout est possible à celui qui croit.</p>
+
+					</div>
+				</div>
+		</div>
+
+
+
+
+
+
+
+		<!-- ÉQUIPE -->
+		<div id="équipe">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h1><span class="underline">Équipe</span></h1>
+						<p>Nous sommes trois jeunes élèves au lycée Olympe de Gouges, nous sommes tous passionner par l'informatique, ce site Internet est pour nous l'occassion de montrer nos compétences apprises au cours de cette année, mais aussi mettre en avant le travail des autres. </p>
+						<img class="img-responsive center-block" src="images/team.jpg" alt="about">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- JEUX -->
+		<div id="jeux">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h1><span class="underline">Jeux</span></h1>
+					</div>
+					<div class="col-md-4">
+						<img class="img-responsive img-rounded" src="images/flappybird.png" alt="Eggs">
+						<h3 class="app-title text-center">Flappy Bird</h3>
+
+						<div class="text-center">
+							<a class="button-small-solid" href="games/flappybird/index.html" target="_blank">JOUER</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<img class="img-responsive img-rounded" src="images/traffic-racer.png" alt="Traffic Racer">
+						<h3 class="app-title text-center">TRAFFIC RACER</h3>
+
+						<div class="text-center">
+							<a class="button-small-solid" href="games/traffic_racer/index.html" target="_blank">JOUER</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<img class="img-responsive img-rounded" src="images/ping-pong.png" alt="Ping Pong">
+						<h3 class="app-title text-center">PING PONG</h3>
+						<div class="text-center">
+							<a class="button-small-solid" href="games/pingpong/index.html" target="_blank">JOUER</a>
+						</div>
+					</div>
+				</div
+			</div
+		</div
+
+
+
+		<!-- RÉSEAUX SOCIAUX -->
+		<div id="réseaux-sociaux">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<a href="https://www.facebook.com/JeuCode93/" target="_blank"><span class="icon-facebook"></span></a>
+						<a href="https://twitter.com/JeuCode1" target="_blank"><span class="icon-twitter"></span></a>
+						<a href="https://jeucode93.tumblr.com" target="_blank"><span class="icon-tumblr"></span></a>
+						<a href="https://dribbble.com/JeuCode" target="_blank"><span class="icon-dribbble"></span></a>
+						<a href="https://plus.google.com/u/1/104747984320081934158" target="_blank"><span class="icon-googleplus"></span></a>
+						<a href="https://www.linkedin.com/in/jeu-code-4b8aa3165/?trk=onboarding-landing&dl=no" target="_blank"><span class="icon-linkedin"></span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- NOUS CONTACTER -->
+		<div id="nous-contacter">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h1><span class="underline">Contact</span></h1>
+					</div>
+
+					<!-- GOOGLE MAP -->
+					<div class="col-md-6">
+						<div class="map-responsive">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.4467887016785!2d2.4672864156754204!3d48.88782177929032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e612d1132c3c8d%3A0x536aa3883bee9e80!2sLyc%C3%A9e+Olympe+de+Gouges!5e0!3m2!1sfr!2sfr!4v1528388153413" allowfullscreen></iframe>
+						</div>
+					</div>
+
+					<!-- FORMULAIRE -->
+					<div class="col-md-6">
+						<form id="ContactForm" data-toggle="validator">
+							<div class="col-md-4">
+								<div class="form-group">
+									<input type="text" class="form-control" id="cfirstname" placeholder="Prénom" required>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<input type="text" class="form-control" id="clastname" placeholder="Nom de famille" required>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<input type="email" class="form-control" id="cemail" placeholder="E-mail" required>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<textarea class="form-control" id="cmessage" placeholder="Écrivez votre message ici" rows="4" required></textarea>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="text-center">
+									<button type="submit" class="button-small-solid">Envoyez le message</button>
+									<div id="cmsgSubmit" class="h3 text-center hidden"></div>
+								</div>
+							</div>
+						</form>
+					</div>
+
+					<!-- INFORMATION SUR NOTRE SIÈGE -->
+					<div class="col-md-12 location-information text-center">
+						<p>Utilisez le formulaire de contact pour nous poser des questions ou entrer en contact en utilisant les informations de contact ci-contre:</p>
+						<ul>
+							<li><span class="location-item"><span class="icon-map-pin location-icons"></span>3 Rue de Montreuil À Claye, 93130 Noisy-le-Sec, FR</span></li>
+							<li><span class="location-item"><span class="icon-phone location-icons"></span>+33 6 24 62 81 34</span></li>
+							<li><span class="location-item"><span class="icon-phone location-icons"></span>06 48 88 63 55</span></li>
+							<li><span class="location-item"><span class="icon-envelope location-icons"></span><a href="#">contact@jeucode.com</a></span></li>
+							<li><span class="location-item"><span class="icon-global location-icons"></span><a href="#header">www.jeucode.com</a></span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- FOOTER -->
+		<footer>
+			<br>copyright © JeuCode 2018, Tout droits réservés</p>
+		</footer>
+
+	</div>
+
+
+	<!-- SCRIPT JS -->
+	<script src="js/jquery-2.2.4.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.easing.min.js" type="text/javascript"></script>
+	<script src="js/validator.min.js" type="text/javascript"></script>
+	<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+	<script src="js/scripts.js" type="text/javascript"></script>
+
+  </body>
+
+</html>
